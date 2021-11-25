@@ -1,5 +1,6 @@
 {
     "name": "becklyn/messaging",
+    "desciption": "Technology independent abstractions for asynchronous messaging",
     "type": "library",
     "authors": [
         {
