@@ -4,7 +4,7 @@ namespace Becklyn\Messaging\Tests\MessageQueue\Infrastructure\Connection\Redis;
 
 use Becklyn\Messaging\MessageQueue\Application\Consumer\QueueDefinition;
 use Becklyn\Messaging\MessageQueue\Application\Message\Destination;
-use Becklyn\Messaging\Tests\MessageQueue\Infrastructure\Connection\Redis\RedisPubSubConnection;
+use Becklyn\Messaging\MessageQueue\Infrastructure\Connection\Redis\RedisPubSubConnection;
 use PHPUnit\Framework\TestCase;
 use Predis\ClientInterface;
 use Predis\Command\Command;

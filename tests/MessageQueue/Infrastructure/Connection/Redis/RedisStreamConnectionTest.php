@@ -4,9 +4,9 @@ namespace Becklyn\Messaging\Tests\MessageQueue\Infrastructure\Connection\Redis;
 
 use Becklyn\Messaging\MessageQueue\Application\Consumer\QueueDefinition;
 use Becklyn\Messaging\MessageQueue\Application\Message\Destination;
-use Becklyn\Messaging\Tests\MessageQueue\Infrastructure\Connection\Redis\Commands\XaddCommand;
-use Becklyn\Messaging\Tests\MessageQueue\Infrastructure\Connection\Redis\Commands\XreadCommand;
-use Becklyn\Messaging\Tests\MessageQueue\Infrastructure\Connection\Redis\RedisStreamConnection;
+use Becklyn\Messaging\MessageQueue\Infrastructure\Connection\Redis\Commands\XaddCommand;
+use Becklyn\Messaging\MessageQueue\Infrastructure\Connection\Redis\Commands\XreadCommand;
+use Becklyn\Messaging\MessageQueue\Infrastructure\Connection\Redis\RedisStreamConnection;
 use PHPUnit\Framework\TestCase;
 use Predis\ClientInterface;
 use Predis\Command\Command;

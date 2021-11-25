@@ -2,7 +2,7 @@
 
 namespace Becklyn\Messaging\Tests\MessageQueue\Infrastructure\Connection\Redis\Commands;
 
-use Becklyn\Messaging\Tests\MessageQueue\Infrastructure\Connection\Redis\Commands\XaddCommand;
+use Becklyn\Messaging\MessageQueue\Infrastructure\Connection\Redis\Commands\XaddCommand;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 
