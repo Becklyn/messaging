@@ -24,7 +24,7 @@ $publisher = new Publisher($connection, $serializer);
 $publisher->publish($message);
 ```
 
-Consuming messages is as simply as publishing them. For this task the library offers a **Consumer**.
+Consuming messages is as simple as publishing them. For this task the library offers a **Consumer**.
 Together with a **Worker**, Messages can be processed on delivery:
 
 ```php
