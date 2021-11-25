@@ -2,10 +2,15 @@
     "name": "becklyn/messaging",
     "desciption": "Technology independent abstractions for asynchronous messaging",
     "type": "library",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Samuel Oechsler",
             "email": "so@becklyn.com"
+        },
+        {
+            "name": "Marko Vujnovic",
+            "email": "mv@becklyn.com"
         }
     ],
     "require": {
